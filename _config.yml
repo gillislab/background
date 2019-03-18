@@ -1,4 +1,2 @@
 theme: jekyll-theme-slate
 markdown: kramdown
-kramdown:
-  extensions: ["link_defs", "tables", "toc_levels"]
