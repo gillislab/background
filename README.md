@@ -2,6 +2,8 @@
  What we talk about when we talk about ... 
 
 ## Co-expression 
+
+
 |      Nickname(s)     |     Citation  and URL     |     Main    Takeaways/Comments     |     Keywords     |
 | ---------------------|--------------------------------|------------------------------------|------------------ |
 |    The   Eisen Paper                            |    Eisen,   M.B., Spellman, P.T., Brown, P.O., and Botstein, D. (1998). Cluster analysis   and display of genome-wide expression patterns. Proceedings of the National   Academy of Sciences of the United States of America 95, 14863-14868.                                                                                                              http://www.pnas.org/content/95/25/14863                                            |    -         in expression data, genes cluster according to their   function = can infer functions for unannotated genes   -                                                                                                                                                |    Coexpression,   microarray, gene function                                    |
