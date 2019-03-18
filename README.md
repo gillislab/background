@@ -2,10 +2,8 @@
  What we talk about when we talk about ... 
 
 ## Co-expression 
-      Nickname(s)     |     Citation  and URL     |     Main    Takeaways/Comments     |     Keywords     
----------------------|--------------------------------|------------------------------------|------------------
-test | this | thing | out 
----------------------|--------------------------------|------------------------------------|------------------
+|      Nickname(s)     |     Citation  and URL     |     Main    Takeaways/Comments     |     Keywords     |
+| ---------------------|--------------------------------|------------------------------------|------------------ |
 
 |    The   Eisen Paper                            |    Eisen,   M.B., Spellman, P.T., Brown, P.O., and Botstein, D. (1998). Cluster analysis   and display of genome-wide expression patterns. Proceedings of the National   Academy of Sciences of the United States of America 95, 14863-14868.                                                                                                              http://www.pnas.org/content/95/25/14863                                            |    -         in expression data, genes cluster according to their   function = can infer functions for unannotated genes   -                                                                                                                                                |    Coexpression,   microarray, gene function                                    |
 |    Paul’s   coexpression meta-analysis Paper    |    Lee,   H.K., Hsu, A.K., Sajdak, J., Qin, J., and Pavlidis, P. (2004). Coexpression   analysis of human genes across many microarray data sets. Genome research   14, 1085-1094.                                                                                                                                                                         https://www.ncbi.nlm.nih.gov/pubmed/15173114                                       |    -         confirmation of coexpression in multiple data sets is   correlated with functional relatedness   -         cluster analysis of the aggregate network reveals   functionally coherent groups of genes                                                           |    Paul,   coexpression, meta-analysis, microarray, human, GO                   |
