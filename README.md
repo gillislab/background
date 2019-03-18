@@ -14,7 +14,8 @@
 
 
 ## RNA-seq 
-|     Nickname(s)     |     Citation  and URL     |     Main    Takeaways/Comments     |     Keywords     |
+
+| Nickname(s)     |     Citation  and URL     |     Main    Takeaways/Comments     |     Keywords     |
 |---------------------|--------------------------------|------------------------------------|------------------|
 |    MAQC   paper                      |    SEQC/MAQC-III   Consortium. A comprehensive assessment of RNA-seq accuracy, reproducibility   and information content by the Sequencing Quality Control Consortium. Nat   Biotech. 2014;32(9):903-14. doi: 10.1038/nbt.2957                                      https://www.nature.com/articles/nbt.2957                                       |    -         Low expressing genes are unreliable in RNA-seq due to   technical and methodological biases    -         Filter away bottom third of genes (low expressing) and   fold changes > 2    -         STAR performs well         |    RNA-seq,   biases, expression, STAR    |
 |    SEQC   collection                 |                                                                                                                                                                                                                                                                     https://www.nature.com/collections/ppgrhzcwpf                                            |                                                                                                                                                                                                                                         |                                           |
@@ -25,6 +26,7 @@
 |   Perils of batch correction 2 (Nygaard)     |    Nygaard, V., Rødland, E.A. & Hovig, E. Methods that remove batch effects while retaining group differences may lead to exaggerated confidence in downstream analyses. Biostatistics (Oxford, England) 17, 29-39 (2015). https://academic.oup.com/biostatistics/article/17/1/29/1744261                         |    -		It’s easy to over-estimate confidence after batch correction, particularly with unbalanced experimental designs                                                                                                                                                  |    Batch   effects              |
 
 ## Single cell 
+
 | Nickname(s)     |     Citation and URL    |     Main    Takeaways/Comments     |     Keywords     |
 |---------------------|--------------------------------|------------------------------------|------------------|
 |    Monocle                                                      |    Trapnell,   C., Cacchiarelli, D., Grimsby, J., Pokharel, P., Li, S., Morse, M., Lennon,   N.J., Livak, K.J., Mikkelsen, T.S., and Rinn, J.L. (2014). The dynamics and   regulators of cell fate decisions are revealed by pseudotemporal ordering of   single cells. Nat Biotech 32, 381-386.   https://www.nature.com/articles/nbt.2859  |    -         cells can ordered in ‘pseudotime’ for developmental   trajectory inference                                                                                                  |    Single cell,   pseudotime                                   |
@@ -40,6 +42,7 @@
 
 
 ## Human genetics 
+
 | Nickname(s)     |     Citation  and URL     |     Main    Takeaways/Comments     |     Keywords     |
 |---------------------|--------------------------------|------------------------------------|------------------|
 |    AJHG   skew paper                      |    Amos-Landgraf   JM, Cottle A, Plenge RM, Friez M, Schwartz CE, Longshore J, et al. X   Chromosome–Inactivation Patterns of 1,005 Phenotypically Unaffected Females.   American Journal of Human Genetics. 2006;79(3):493-9. PubMed PMID: PMC1559535       http://www.cell.com/ajhg/fulltext/S0002-9297(07)62748-7                                    |    -         Skew ratios within a population of women are normally   distributed    -         First “large” scale XCI analysis using the AR   X-inactivation assay (HUMARA)                                                                                                                                                                                                 |    X-inactivation,   X-skew, tissue dependent                 |
@@ -55,6 +58,7 @@
 
 
 ## Network analysis 
+
 | Nickname(s)     |     Citation  and URL     |     Main    Takeaways/Comments     |     Keywords     |
 |---------------------|--------------------------------|------------------------------------|------------------|
 |    The   first WGCNA Paper                  |    Zhang, B., and Horvath, S. (2005). A general   framework for weighted gene co-expression network analysis. Statistical   applications in genetics and molecular biology 4, Article17.           https://www.ncbi.nlm.nih.gov/pubmed/16646834                                      |    -         Argue for weighted networks over binary networks   -         Weighted networks lead to more cohesive modules                                                                                                                                                                                                                                                                                                                 |    Coexpression,   network analysis, clustering, WGCNA                  |
@@ -62,6 +66,7 @@
 |    The   WGCNA Module Preservation Paper    |    Langfelder, P., Luo, R., Oldham, M.C., and   Horvath, S. (2011). Is My Network Module Preserved and Reproducible? PLOS   Computational Biology 7, e1001057.                                     http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1001057     |    -         Applying cluster stability/validation methods to gene   networks   -         “We   find that it is advantageous to aggregate multiple preservation statistics   into summary preservation statistics”   -         “Cluster validation statistics may not be appropriate when   modules are not defined as clusters. In general, assessing module preservation is a different task from   assessing cluster preservation.”    |    Clustering,   replicability, network analysis, WGCNA, metrics        |
 
 ## Machine learning 
+
 | Nickname(s)     |     Citation  and URL     |     Main    Takeaways/Comments     |     Keywords     |
 |---------------------|--------------------------------|------------------------------------|------------------|
 |    Hand   paper                |    Hand DJ. Classifier technology and the   illusion of progress. Statistical science. 2006:1-14                                                                                                                                                                             https://arxiv.org/pdf/math/0606441.pdf                                       |    -         simple methods are often surprisingly effective     |    Machine   learning                                        |
@@ -69,6 +74,7 @@
 |    CAFA                        |    Radivojac P, Clark WT, Oron TR, Schnoes AM,   Wittkop T, Sokolov A, et al. A large-scale evaluation of computational   protein function prediction. Nature Methods. 2013;10:221. doi:   10.1038/nmeth.2340                                                                https://www.nature.com/articles/nmeth.2340                                   |    -         BLAST works okay compared to “naïve” methods        |    Competitions,   machine learning                          |
 
 ## Gene set enrichment analysis 
+
 | Nickname(s)     |     Citation  and URL     |     Main    Takeaways/Comments     |     Keywords     |
 |---------------------|--------------------------------|------------------------------------|------------------|
 |    Goeman   2007                                          |    Goeman, J.J., and Buhlmann, P. (2007).   Analyzing gene expression data in terms of gene sets: methodological issues.   Bioinformatics (Oxford, England) 23, 980-987.                                                https://academic.oup.com/bioinformatics/article-abstract/23/8/980/198511     |    -         For enrichment analysis, sample permutation and gene   permutation have different underlying assumptions   -         Gene permutation does not take coexpression into account,   making p-values easily misinterpreted/”anti-conservative”   -         Competitive gene set testing “creates an unnecessary rift   between single gene testing and gene set testing”    |    Functional   enrichment, commentary                                       |
@@ -76,6 +82,7 @@
 |    Tamayo   2012                                          |    Tamayo, P., Steinhardt, G., Liberzon, A., and   Mesirov, J.P. (2016). The limitations of simple gene set enrichment analysis   assuming gene independence. Statistical methods in medical research 25,   472-487.    https://www.ncbi.nlm.nih.gov/pubmed/23070592                                 |    -         Gene coexpression invalidates simple gene set enrichment   approaches                                                                                                                                                                                                                                                                                                   |    Coexpression,   functional enrichment                                     |
 
 ## Statistics 
+
 | Nickname(s)     |     Citation  and URL     |     Main    Takeaways/Comments     |     Keywords     |
 |---------------------|--------------------------------|------------------------------------|------------------|
 |    FDR                          |    Noble   WS. How does multiple testing correction work? Nature biotechnology.   2009;27(12):1135-7. doi: 10.1038/nbt1209-1135. PubMed PMID: PMC2907892.                                                                        https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2907892/                      |                                                                                                                                                                                                                                                                                                                                                                                      |    Multiple   test correction                          |
